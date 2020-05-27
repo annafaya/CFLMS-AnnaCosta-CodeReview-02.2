@@ -1,0 +1,303 @@
+  * {
+      margin: 0;
+      font-family: helvetica;
+  }
+
+  @media screen and (max-width: 800px) {
+
+      .wrapperdosblocostodos,
+      .wrapperdosblocostodos2 {
+          justify-content: center;
+      }
+
+      .containerPAI,
+      .containerPAI2 {
+          width: 100%;
+          margin-right: 0;
+      }
+
+      .news2 {
+          display: none;
+      }
+
+      .container2 {
+          margin-top: 0;
+      }
+
+      .titulo {
+          margin-bottom: 0;
+      }
+
+      .container {
+          flex-flow: wrap;
+      }
+
+      .news1,
+      .news2 {
+          position: relative;
+          width: 47%;
+          min-width: 300px;
+          margin-top: 15px;
+          min-width: 0px;
+      }
+
+      #big,
+      .data,
+      .banner1,
+      .banner2,
+      .banner3 {
+          display: none;
+      }
+  }
+
+  /*---------------------------------------------------------------*/
+
+  #header {
+      padding: 1rem;
+      background: rgb(115, 0, 0);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: static
+  }
+
+  nav {
+      width: 100%;
+      align-items: flex-start;
+      background-color: rgb(13, 0, 0);
+      display: flex;
+
+  }
+
+  nav li {
+      margin: 0.3em;
+      float: left;
+      list-style: none;
+      justify-content: space-around;
+  }
+
+  li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1.1em;
+  }
+
+  p.data {
+      justify-content: flex-end;
+      margin: 0.3rem;
+      align-items: flex-end;
+      display: flex;
+      font-size: 0.7rem;
+  }
+
+  /*----------------------------------------------------*/
+  .wrappertotal {
+      margin: 20px 20px 0 20px;
+  }
+
+  /*----------------------------------------------------*/
+
+  .titulo {
+      display: flex;
+      align-items: center;
+      color: #4C4C4C;
+      background-color: #DDDDDD;
+      height: 1.5em;
+      font-size: 1.5em;
+      padding-left: 0.5em;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+
+  .wrapperdosblocostodos {
+      display: flex;
+      width: 100%;
+  }
+
+
+  .containerPAI {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 15px;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .container .news1 a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .news1 {
+      position: relative;
+      width: 30%;
+      min-width: 200px;
+  }
+
+  .news1 img {
+      width: 100%;
+
+  }
+
+  .banner1 {
+      width: 10%;
+  }
+
+  .banner1 img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .banner2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
+
+  .banner2 img {
+      width: 90%;
+      height: 100%;
+  }
+
+  /*----------------------------------------------------*/
+
+  .banner3 {
+      width: 10%;
+      margin-top: 15px;
+  }
+
+  .banner3 img {
+      width: 100%;
+      height: 100%;
+  }
+
+  /*----------------------------------------------------*/
+  .wrapperdosblocostodos2 {
+      display: flex;
+      width: 100%;
+  }
+
+  .containerPAI2 {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 15px;
+  }
+
+  .container2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 15px;
+  }
+
+  .container2 .news2 a {
+      text-decoration: none;
+      color: white;
+  }
+
+  .news2 {
+      position: relative;
+      width: 49%;
+      min-width: 300px;
+  }
+
+  .news2 img {
+      width: 100%;
+  }
+
+  .caption {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+      background-color: black;
+      color: white;
+      width: 100%;
+      min-height: 60px;
+      font-size: 0.5em;
+      font-weight: bold;
+  }
+
+  .caption p {
+      padding-left: 0.5em;
+      font-size: 1.5em;
+  }
+
+  #articletitle {
+      text-align: center;
+      margin: 2%;
+  }
+
+  .paragrafobike {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-right: 15px;
+      align-items: center;
+      margin: 2vw auto;
+
+  }
+
+
+  .paragrafobike img {
+      width: 47vw;
+      height: 35vw;
+      background-image: url(../img/run.jpg);
+      background-size: cover;
+      padding-bottom: 2vw;
+  }
+
+  .paragrafobike p {
+      text-align: justify;
+  }
+
+  footer {
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+      justify-content: space-around;
+      background-color: #1A1A1A;
+      margin-top: 3%;
+      height: 10em;
+  }
+
+  nav #footer ul,
+  nav #footer li {
+      text-decoration: none;
+      font-size: 100%;
+      color: #FFFFFF;
+      display: flex;
+      flex-flow: row;
+      justify-content: left;
+  }
+
+  nav #footer li {
+      padding: 0 2vw 0 0;
+  }
+
+  nav #footer ul {
+      padding: 0.2% 0% 0.2% 2.5%;
+  }
+
+  nav #footer {
+      display: flex;
+      justify-content: left;
+      width: 100%;
+      background-color: #1A1A1A;
+  }
+
+  footer p {
+      color: #FFFFFF;
+      padding-bottom: 1%;
+  }
